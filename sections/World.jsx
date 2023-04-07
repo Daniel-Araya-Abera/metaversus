@@ -39,7 +39,7 @@ const World = () => (
       <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
         <img src="people-03.png" alt="people" className="w-full h-full" />
       </div>
-      <div className="absolute top-[45%] left-[15%] rounded-lg shadow-md overflow-hidden  w-[228px] h-[186px] mt-[-8px] ml-[-8px] blur bg-gradient-to-r from-purple-800 via-pink-800 to-blue-800"></div>
+      <div className="absolute top-[45%] left-[15%] rounded-lg shadow-md overflow-hidden  w-[228px] h-[186px] mt-[-8px] ml-[-8px] blur opacity-70 bg-gradient-to-r from-purple-800 via-pink-800 to-blue-800"></div>
       <div className="absolute top-[45%] left-[15%] rounded-lg shadow-md overflow-hidden w-[212px] h-[170px]">
         <div className="">
           <div className="">
@@ -47,11 +47,11 @@ const World = () => (
               The Upside down
             </p>
           </div>
-          <div class="absolute bottom-[50%] left-[10%] flex flex-row-reverse items-center">
+          <div className="absolute bottom-[50%] left-[10%] flex flex-row-reverse items-center">
             <div className="flex">
-              <div class="absolute z-30 h-7 w-7 rounded-full bg-gray-400 bg-[url('/new/Ellipse-01.png')] "></div>
-              <div class="absolute z-20 ml-4 h-7 w-7 rounded-full bg-gray-500 bg-[url('/new/Ellipse-02.png')] "></div>
-              <div class="absolute z-10 ml-8 h-7 w-7 rounded-full bg-gray-600 bg-[url('/new/Ellipse-03.png')] "></div>
+              <div className="absolute z-30 h-7 w-7 rounded-full bg-gray-400 bg-[url('/new/Ellipse-01.png')] "></div>
+              <div className="absolute z-20 ml-4 h-7 w-7 rounded-full bg-gray-500 bg-[url('/new/Ellipse-02.png')] "></div>
+              <div className="absolute z-10 ml-8 h-7 w-7 rounded-full bg-gray-600 bg-[url('/new/Ellipse-03.png')] "></div>
             </div>
           </div>
           <img
